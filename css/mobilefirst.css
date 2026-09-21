@@ -1,0 +1,77 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #5170ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(../imagens/RSTAR\ CONECT-baixo.png) center left/cover no-repeat fixed;
+}
+#logo{
+    margin: auto;
+    display: block;
+    width: 300px;
+    padding: 10px;
+    
+}
+main{
+    background-color: white;
+    width: 90vw;
+    height: 55vh;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 400;
+    color: #5170ff;
+}
+article{
+    padding: 10px;
+}
+article h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 2.5em;
+}
+article p{
+    text-align: center;
+    padding: 10px;
+}
+article p.esq{
+    text-align: left;
+}
+article label.tags{
+    background-color: #5170ff;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    display: block;
+    width: 70px;
+    text-align: center;
+    margin-left: 7px;
+}
+article input{
+    display: inline-block;
+    margin: auto;
+    background-color: #d4d4d4;
+    border: 2px solid #5170ff;
+    width: 94%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+article input#entrar{
+    background-color: #5170ff;
+    width: 250px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 1.7em;
+    cursor: pointer;
+}
+article p a{
+    color: #5170ff;
+    font-weight: bold;
+    font-size: 1.1em;
+}
