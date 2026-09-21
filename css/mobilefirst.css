@@ -12,13 +12,11 @@ body{
     margin: auto;
     display: block;
     width: 300px;
-    padding: 10px;
-    
 }
 main{
     background-color: white;
-    width: 90vw;
-    height: 55vh;
+    width: 85vw;
+    height: 70vh;
     margin: auto;
     padding: 10px;
     border-radius: 20px;
