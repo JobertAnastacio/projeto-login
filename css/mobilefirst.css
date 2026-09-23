@@ -6,7 +6,7 @@
 body{
     background-color: #5170ff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: url(../imagens/RSTAR\ CONECT-baixo.png) center left/cover no-repeat fixed;
+    
 }
 #logo{
     margin: auto;
@@ -14,17 +14,19 @@ body{
     width: 300px;
 }
 main{
-    margin-top: 90px;
+    margin-top: 70px;
+    
 }
 article{
-    width: 85vw;
-    height: 75vh;
     margin: auto;
     font-weight: 400;
     color: #5170ff;
+    width: 85vw;
+    height: 75vh;
 }
 div#img{
     background-color: transparent;
+    padding: 10px;
 }
 div#login{
     background-color: white;
