@@ -23,6 +23,8 @@ main{
     
 }
 article{
+    margin-top: 20px;
+    margin-bottom: 20px;
     position: relative;
     top: 50%;
     left: 50%;
