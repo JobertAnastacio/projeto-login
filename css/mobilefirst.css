@@ -35,10 +35,13 @@ div#img{
     padding: 10px;
 }
 div#login{
+    margin: auto;
     background-color: white;
     box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.397);
     padding: 20px;
     border-radius: 20px;
+    width: 250px;
+    height: 550px;
 }
 article h1{
     text-align: center;
@@ -67,15 +70,17 @@ article input{
     margin: auto;
     background-color: #d4d4d4;
     border: 2px solid #5170ff;
-    width: 94%;
-    height: 40px;
+    width: 90%;
+    height: 30px;
     border-radius: 10px;
     padding: 10px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 article input#entrar{
+    text-align: center;
+    margin: auto;
     background-color: #5170ff;
-    width: 250px;
+    width: 80%;
     height: 50px;
     border: none;
     color: white;
