@@ -6,7 +6,7 @@
 body{
     background-color: #5170ff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    background: url(../imagens/RSTAR\ CONECT-baixo.png) center left/cover no-repeat fixed;
 }
 #logo{
     margin: auto;
