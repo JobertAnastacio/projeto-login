@@ -19,11 +19,15 @@
    
     article{
         width: 80vw;
-        top: 22%;
-        position: relative;
+    }
+    article > div#img{
+        background: url(../imagens/logo-rstar-png.final.png) center center/contain no-repeat fixed;
+        height: 30%;
+        float: left;
     }
     article > div#login{
         width: 400px;
+        float: right;
     }
     article input#entrar{
         width: 60%;

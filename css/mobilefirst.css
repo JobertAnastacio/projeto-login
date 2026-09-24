@@ -12,18 +12,14 @@ body,html{
     width: 100vw;
     height: 100vh;
 }
-img{
-    display: block;
-    margin: auto;
-}
 main{
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100vh;
     
 }
 article{
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
