@@ -12,7 +12,10 @@ body,html{
     width: 100vw;
     height: 100vh;
 }
-
+img{
+    display: block;
+    margin: auto;
+}
 main{
     position: absolute;
     width: 100vw;
@@ -29,7 +32,6 @@ article{
     width: 80vw; 
 }
 div#img{
-    background: url(../imagens/logo-rstar-pq-final-png.png) center center/contain no-repeat;
     height: 100px;
     display: block;
 }

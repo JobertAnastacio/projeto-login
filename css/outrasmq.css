@@ -1,0 +1,28 @@
+@charset "UFT-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+   
+    div#login{
+        width: 400px;
+    }
+
+}
+@media screen and (min-width: 992px) {
+    img{
+        height: 200px;
+    }
+    article{
+        position: relative;
+       
+    }
+    div#img{
+        float: left;
+        
+    }
+    div#login{
+        
+        float: right;
+        width: 400px;
+        
+    }
+}
