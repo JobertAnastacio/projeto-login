@@ -2,27 +2,30 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
    
-    div#login{
+    article > div#login{
         width: 400px;
     }
-
+    article h1{
+        font-size: 2em;
+    }
+    article p{
+        font-size: 1em;
+    }
+    article input#entrar{
+        width: 60%;
+    }
 }
 @media screen and (min-width: 992px) {
-    img{
-        height: 200px;
-    }
+   
     article{
+        width: 80vw;
+        top: 22%;
         position: relative;
-       
     }
-    div#img{
-        float: left;
-        
-    }
-    div#login{
-        
-        float: right;
+    article > div#login{
         width: 400px;
-        
+    }
+    article input#entrar{
+        width: 60%;
     }
 }
