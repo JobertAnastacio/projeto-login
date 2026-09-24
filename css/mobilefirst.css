@@ -23,14 +23,16 @@ article{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-weight: 600;
+    font-weight: 700;
     color: #5170ff;
-    width: 80vw; 
+    width: 80vw;  
+    
 }
 article > div#img{
-    background: url(../imagens/logo-rstar-pq-final-png.png) center center/contain no-repeat fixed;
-    height: 100px;
+    background: transparent url(../imagens/logo-rstar-pq-final-png.png) center center/contain no-repeat fixed;
+    height: 70px;
     display: block;
+   
 }
 article > div#login{
     display: block;
@@ -41,6 +43,8 @@ article > div#login{
     border-radius: 20px;
     width: 250px;
     height: 500px;
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 article h1{
     text-align: center;

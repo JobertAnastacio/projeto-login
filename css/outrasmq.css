@@ -1,9 +1,11 @@
 @charset "UFT-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-   
+    artivle > div#img{
+        height: 100px;
+    }
     article > div#login{
-        width: 400px;
+        width: 50vw;
     }
     article h1{
         font-size: 2em;
@@ -18,15 +20,22 @@
 @media screen and (min-width: 992px) {
    
     article{
-        width: 80vw;
+        width: 950px;
+    }
+    article h1{
+        font-size: 2em;
+    }
+    article p{
+        font-size: 1em;
     }
     article > div#img{
         background: url(../imagens/logo-rstar-png.final.png) center center/contain no-repeat fixed;
-        height: 30%;
+        height: 500px;
+        width: 50%;
         float: left;
     }
     article > div#login{
-        width: 400px;
+        width: 50%;
         float: right;
     }
     article input#entrar{
