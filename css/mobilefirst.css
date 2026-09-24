@@ -32,7 +32,8 @@ article > div#img{
     background: transparent url(../imagens/logo-rstar-pq-final-png.png) center center/contain no-repeat fixed;
     height: 70px;
     display: block;
-   
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 article > div#login{
     display: block;
