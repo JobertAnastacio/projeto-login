@@ -31,8 +31,10 @@ article{
 div#img{
     background: url(../imagens/logo-rstar-pq-final-png.png) center center/contain no-repeat;
     height: 100px;
+    display: block;
 }
 div#login{
+    display: block;
     margin: auto;
     background-color: white;
     box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.397);
