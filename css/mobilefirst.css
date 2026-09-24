@@ -22,10 +22,10 @@ article{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     font-weight: 700;
     color: #5170ff;
     width: 80vw;  
+    transform: translate(-50%, -50%);
     
 }
 article > div#img{
@@ -81,6 +81,10 @@ article input{
     border-radius: 10px;
     padding: 10px;
     font-size: 1em;
+}
+article input:focus-within{
+    border: 2px solid #5170ff;
+    background-color: aliceblue;
 }
 article input[type=submit]{ /* poderia usar input#entrar ja que dei um id*/
     text-align: center;
