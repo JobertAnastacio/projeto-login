@@ -42,7 +42,7 @@ article > div#login{
     padding: 20px;
     border-radius: 20px;
     width: 250px;
-    height: 500px;
+    height: 450px;
     transition: width 1s, height 1s;
     transition-timing-function: ease;
 }
@@ -51,12 +51,12 @@ article h1{
     font-size: 1.8em;
     padding: 4px;
 }
-article p{
+article p,div{
     text-align: center;
     padding: 7px;
     font-size: 0.9em
 }
-article p.esq{
+article div.esq{
     text-align: left;
 }
 article label.tags{

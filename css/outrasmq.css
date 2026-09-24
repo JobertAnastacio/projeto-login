@@ -30,7 +30,7 @@
     }
     article > div#img{
         background: url(../imagens/logo-rstar-png.final.png) center center/contain no-repeat fixed;
-        height: 500px;
+        height: 450px;
         width: 50%;
         float: left;
     }

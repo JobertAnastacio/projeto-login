@@ -18,18 +18,18 @@
                 <h1>Faça seu Login</h1>
                 <p>Insira seu CPF e senha abaixo para entrar na sua conta</p>
                 <form action="" method="post" autocomplete="on">
-                    <p class="esq">
+                    <div class="esq">
                         <label for="icpf" class="tags">CPF</label>
-                        <input type="text" name="cpf" id="icpf" autocomplete="username" placeholder="000.000.000-00">
-                    </p>
-                    <p class="esq">
+                        <input type="text" name="cpf" id="icpf" autocomplete="username" placeholder="000.000.000-00" required>
+                    </div>
+                    <div class="esq">
                         <label for="isenha" class="tags">SENHA</label>
-                        <input type="password" name="senha" id="isenha" autocomplete="current-password">
-                    </p>
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" required>
+                    </div>
                     <p class="esq"><a href="#">Esqueci minha senha</a></p>
-                    <p>
+                    <div>
                         <input type="submit" value="ENTRAR" id="entrar">
-                    </p>
+                    </div>
                     <p>
                         Ainda não possui cadastro? <a href="#">Cadastre-se aqui</a>
                     </p>
