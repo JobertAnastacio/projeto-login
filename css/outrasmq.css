@@ -1,8 +1,8 @@
 @charset "UFT-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    artivle > div#img{
-        height: 100px;
+    article > div#img{
+        height: 120px;
     }
     article > div#login{
         width: 50vw;
