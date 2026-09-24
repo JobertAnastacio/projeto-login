@@ -81,7 +81,7 @@ article input{
     padding: 10px;
     font-size: 1em;
 }
-article input#entrar{
+article input[type=submit]{ /* poderia usar input#entrar ja que dei um id*/
     text-align: center;
     margin: auto;
     background-color: #5170ff;
@@ -92,8 +92,14 @@ article input#entrar{
     font-size: 1.2em;
     cursor: pointer;
 }
+article input[type=submit]:hover{
+    background-color: rgb(32, 60, 185);
+}
 article p a{
     color: #5170ff;
     font-weight: bold;
     font-size: 1.1em;
+}
+article p a:hover{
+    color: rgb(32, 60, 185);
 }    
