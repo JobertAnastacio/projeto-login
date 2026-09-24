@@ -56,7 +56,7 @@ article p,div{
     padding: 7px;
     font-size: 0.9em
 }
-article div.esq{
+article div.esq,p.esq{
     text-align: left;
 }
 article label.tags{
