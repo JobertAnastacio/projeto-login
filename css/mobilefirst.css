@@ -6,18 +6,13 @@
 }
 body,html{
     background-color: #5170ff;
-    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: url(../imagens/RSTAR\ CONECT-baixo.png) center left/cover no-repeat fixed; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url(../imagens/RSTAR\ CONECT-baixo.png) center left/cover no-repeat fixed; 
     box-sizing: border-box;
     width: 100vw;
     height: 100vh;
 }
-#logo{
-    margin: auto;
-    display: block;
-    width: 200px;
-    
-}
+
 main{
     position: absolute;
     width: 100vw;
@@ -31,11 +26,11 @@ article{
     transform: translate(-50%, -50%);
     font-weight: 600;
     color: #5170ff;
-    width: 80vw;
+    width: 80vw; 
 }
 div#img{
-    background-color: transparent;
-    padding: 10px;
+    background: url(../imagens/logo-rstar-pq-final-png.png) center center/contain no-repeat;
+    height: 100px;
 }
 div#login{
     margin: auto;
